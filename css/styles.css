@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center }
+}
+#zipError {
+  color:red;
+}
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  text-align:center;
+  color:blue;
+  font-size: 2em;
+  border-bottom: 1px solid blue;
+  padding-bottom:10px;
+}
+#block{
+  display:flex;
+  justify-content:center;
+  background:lightsteelblue;
+  border:2px black solid;
+  border-width:3px;  
+  border-style:groove;
+  border-radius:25px;
+  height:700px;
+  width: 400px;
+}
+.input {
+  width:99%;
+}
+#data {
+  height: 460px;
+}
+.input {
+  font-weight:bold;
+}
+#submitBtn {
+  border-radius:10px;
+  border-style:groove;
+  margin:auto;
+  font-size:1.8em;
+  display:block;
+  max-width:400;
+}
+span {
+  font-size: 1.2em;
+  font-weight:bold;
+}
+#iconBlock{
+  color : darkviolet;
+  text-align:center;
+  font-size: 2em;
+}
+.foot {
+  padding-top: 40px;
+  display:flex;
+  justify-content:center;
+}
