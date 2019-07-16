@@ -31,7 +31,7 @@ function getWeather (){
      dataType: "json",
      data: {"zip" : $("#zip").val(), units : "imperial", APPID : "8d9bcb73325d22092cb96bd38f7e4c36"},
      success: function(result,status) {
-      $("#latitude").html("Latitude:" + result.coord.lat);
+      $("#latitude").html("Latitude: " + result.coord.lat);
       $("#longitude").html("Longitude: " + result.coord.lon);
       $('#weatherIcon').html("<img src='http://openweathermap.org/img/wn/" + result.weather[0].icon + "@2x.png'>");
       $("#discription").html(result.weather[0].main);
